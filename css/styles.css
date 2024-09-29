@@ -29,9 +29,22 @@ p {
        line-height: 2.1rem;
 }
 img {
-       width: 100%;
+       width: 60%;
        position: fixed;
        height: 100vh;
+}
+.logos {
+       position: fixed;
+       top: 0;
+       width: 500px;
+       background-color: #2de5f3;
+       opacity: .6;
+}
+.logo {
+       position: relative;
+       width: 30%;
+       height: 30%;
+       left: 1rem;
 }
 .block h3:nth-of-type(2) {
        margin-top: 2rem;
@@ -40,7 +53,7 @@ img {
        margin-top: 5rem;
 }
 .form {
-       width: 50%;
+       width: 60%;
        position: fixed;
        right: 0;
        background-color: rgb(244, 245, 245);
@@ -57,7 +70,7 @@ img {
 
 .input-group {
        display: flex;
-       gap:  2rem;
+       gap:  7rem;
        margin: 1rem 0;
 }
 .input-group:first-of-type {
