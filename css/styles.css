@@ -35,16 +35,19 @@ img {
 }
 .logos {
        position: fixed;
-       top: 0;
-       width: 500px;
-       background-color: #2de5f3;
+       top: 20rem;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       width: 40%;
+       background-color: #cef1f1;
        opacity: .6;
 }
 .logo {
        position: relative;
        width: 30%;
        height: 30%;
-       left: 1rem;
+       left: rem;
 }
 .block h3:nth-of-type(2) {
        margin-top: 2rem;
